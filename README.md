@@ -4,6 +4,7 @@
 SSD for Vehicle Detection and Tracking: https://github.com/mohammedamarnah/vehicle-detection
 
 setting-tensorflow==1.0.0, keras==1.2.2, opencv-python==3.1.0.4
+moviepy오류 - brew reinstall ffmpeg
 
 Pre-trained model: https://github.com/rykov8/ssd_keras
 
