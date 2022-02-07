@@ -3,6 +3,10 @@
 
 tensorflow==1.0.0, keras==1.2.2, opencv-python==3.1.0.4
 
+Input shape: (300 ,300)
+
+Pipeline: Process_frame(img), Decode_output(out_put, threshold)
+
 SSD for Vehicle Detection and Tracking: https://github.com/mohammedamarnah/vehicle-detection
 
 Pre-trained model: https://github.com/rykov8/ssd_keras
