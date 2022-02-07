@@ -26,6 +26,8 @@ Research paper: https://arxiv.org/abs/1512.02325
 
 참고: https://herbwood.tistory.com/15
 
+https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection
+
 *moviepy오류 - brew reinstall ffmpeg
 
 
