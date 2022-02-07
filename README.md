@@ -10,6 +10,8 @@ Pipeline: Process_frame(img), Decode_output(out_put, threshold)
 Output: 
 
 ### 특징
+![SSD_architecture](https://user-images.githubusercontent.com/67774946/152835312-e696b723-d2cd-44ce-bfc1-0a4ece6360aa.png)
+
 1. Time과 Accuracy의 trade-off 문제를 해결함.
 
 2. 다양한 scale의 feature map을 예측에 사용하고 다양한 scale의 default box를 사용한다.
