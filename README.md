@@ -13,6 +13,8 @@ Pre-trained model: https://github.com/rykov8/ssd_keras
 
 thesis: https://arxiv.org/abs/1512.02325
 
+참고: https://herbwood.tistory.com/15
+
 *moviepy오류 - brew reinstall ffmpeg
 
 
