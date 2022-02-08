@@ -11,13 +11,11 @@ Output: 8732x(21+4) = priors x (channels x offsets) //channels은 object 종류 
 
 1. Time과 Accuracy의 trade-off 문제를 해결함.
 
-2. 다양한 scale의 feature map을 예측에 사용하고 다양한 scale의 default box를 사용한다.
+2. VGG-16의 input size를 (300, 300)으로 바꾸고, FC layers를 CNN layers로 바꾸고 feature map을 추가했다.
 
-3. VGG-16의 input size를 (300, 300)으로 바꾸고, FC layers를 CNN layers로 바꾸고 feature map을 추가했다.
+3. Auxiliary Convoultions(점점 작아지는 feature map) 사용
 
-4. Auxiliary Convoultions(점점 작아지는 feature map) 사용
-
-5. Priors 좌표와 실제 Box의 offsets의 차이로 loss를 구해 regression한다.
+4. Priors 좌표와 실제 Box의 offsets의 차이로 loss를 구해 regression한다.
 
 ## Concepts
 
