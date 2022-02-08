@@ -2,7 +2,7 @@
 ```
 tensorflow==1.0.0, keras==1.2.2, opencv-python==3.1.0.4
 ```
-__Input shape: (300 ,300)
+__Input shape: (300 ,300)__
 
 __Output: 8732x(21+4)__ = priors x (channels x offsets) //channels은 object 종류 판단 offsets은 박스 위치 판단
 
