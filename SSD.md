@@ -4,7 +4,7 @@ tensorflow==1.0.0, keras==1.2.2, opencv-python==3.1.0.4
 ```
 Input shape: (300 ,300)
 
-Output: 8732x(21+4) = priors x (channels x offsets)
+Output: 8732x(21+4) = priors x (channels x offsets) //channels은 object 종류 판단 offsets은 박스 위치 판단
 
 ## 특징
 ![SSD_architecture](https://user-images.githubusercontent.com/67774946/152835312-e696b723-d2cd-44ce-bfc1-0a4ece6360aa.png)
