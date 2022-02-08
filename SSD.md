@@ -21,7 +21,7 @@ Output: 8732x(21+4) = priors x (channels x offsets)
 
 ## 개념
 
-1. MultiBox: Box가 Object를 포함하고 있는가? Box안 scores for various object types?
+1. MultiBox: Box가 Object를 포함하고 있는가? Box안 scores for various object types? 두가지 모두를 판단해주는 Box
 
 2. Prior: Box가 존재 할 수 있는 모든 위치를 미리 계산해 구한 고정된 box. Feature map마다 측면 비율, 스케일 등이 다르다. 구하면 8732개의 boxes가 구해진다.
 
