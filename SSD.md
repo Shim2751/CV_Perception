@@ -19,11 +19,11 @@ Output: 8732x(21+4) = priors x (channels x offsets) //channels은 object 종류 
 
 ## Concepts
 
-1. MultiBox: Box가 Object를 포함하고 있는가? Box안 scores for various object types? 두가지 모두를 판단해주는 Box
+1. __MultiBox__: Box가 Object를 포함하고 있는가? Box안 scores for various object types? 두가지 모두를 판단해주는 Box
 
-2. Prior: Box가 존재 할 수 있는 모든 위치를 미리 계산해 구한 고정된 box. Feature map마다 측면 비율, 스케일 등이 다르다. 구하면 8732개의 boxes가 구해진다.
+2. __Prior__: Box가 존재 할 수 있는 모든 위치를 미리 계산해 구한 고정된 box. Feature map마다 측면 비율, 스케일 등이 다르다. 구하면 8732개의 boxes가 구해진다.
 
-3. Non-Maximum Suppression(NMS): 겹치는 Box를 IOU 계산을 통해 제거해주는 알고리즘.
+3. __Non-Maximum Suppression(NMS)__: 겹치는 Box를 IOU 계산을 통해 제거해주는 알고리즘.
 
 ## References
 
