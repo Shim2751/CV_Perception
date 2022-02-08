@@ -30,9 +30,3 @@ https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection
 
 *moviepy오류 - brew reinstall ffmpeg
 
-
-## 2. Monodepth2
-https://github.com/nianticlabs/monodepth2
-
-## 3. 3D Bounding Box Estimation Using Deep Learning and Geometry
-https://github.com/skhadem/3D-BoundingBox
