@@ -1,4 +1,4 @@
-# 1. Single Shot Multibox Detector (SSD)
+# Single Shot Multibox Detector (SSD)
 ```
 tensorflow==1.0.0, keras==1.2.2, opencv-python==3.1.0.4
 ```
