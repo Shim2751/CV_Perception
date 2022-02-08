@@ -19,7 +19,7 @@ Output: 8732x(21+4) = priors x (channels x offsets) //channels은 object 종류 
 
 5. Priors 좌표와 실제 Box의 offsets의 차이로 loss를 구해 regression한다.
 
-## 개념
+## Concepts
 
 1. MultiBox: Box가 Object를 포함하고 있는가? Box안 scores for various object types? 두가지 모두를 판단해주는 Box
 
@@ -27,7 +27,7 @@ Output: 8732x(21+4) = priors x (channels x offsets) //channels은 object 종류 
 
 3. Non-Maximum Suppression(NMS): 겹치는 Box를 IOU 계산을 통해 제거해주는 알고리즘.
 
-## Reference
+## References
 
 SSD for Vehicle Detection and Tracking: https://github.com/mohammedamarnah/vehicle-detection
 
