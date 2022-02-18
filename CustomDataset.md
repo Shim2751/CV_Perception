@@ -54,11 +54,11 @@ COCO data format can be decomposed into five: __info, image, license, annotation
 you can check specific example and explain [here](https://towardsdatascience.com/how-to-work-with-object-detection-datasets-in-coco-format-9bf4fb5848a4) __(read Json Format part
 )__. 
 
-__image__ have list of images in your dataset.
+__image__ have a list of images in your dataset.
 
-__annotation__ have bounding box information(x, y, w, h).
+__annotation__ have a list of annotations which has bounding box information(x, y, w, h).
 
-__categories__ have list of classes which we have to classify(ex. stop sign, red light).
+__categories__ have a list of classes which we have to classify(ex. stop sign, red light).
 
 advice(중요하진 않음): ```Class COCOdataset``` is subclass of ```torch.utils.data.Dataset```
 
