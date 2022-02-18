@@ -108,7 +108,7 @@ categories[{
 }]
 ```
 ### What we have to do
- 1. Make categories
+ 1. Reduce annotation types and make categories
  2. Set image_id, annotation_id, categoties_id
  3. Combine all josn files into one json file.
  4. Seperate imsize into width and height.
