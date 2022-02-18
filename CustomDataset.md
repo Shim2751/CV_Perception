@@ -113,6 +113,7 @@ categories[{
  3. Set image_id, annotation_id, categoties_id.
  4. Combine all josn files into one json file.
  5. Seperate imsize into width and height.
+ 
  =>Make program that performs this procedure
  
 ## Reference
