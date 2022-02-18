@@ -108,10 +108,12 @@ categories[{
 }]
 ```
 ### What we have to do
- 1. Reduce annotation types and make categories
- 2. Set image_id, annotation_id, categoties_id
- 3. Combine all josn files into one json file.
- 4. Seperate imsize into width and height.
+ 1. Make categories according to the competition announcement.
+ 2. Move annotation classes into categories.
+ 3. Set image_id, annotation_id, categoties_id.
+ 4. Combine all josn files into one json file.
+ 5. Seperate imsize into width and height.
+ =>Make program that performs this procedure
  
 ## Reference
 Dataset: https://aihub.or.kr/aidata/27678
