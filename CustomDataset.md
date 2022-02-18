@@ -2,7 +2,7 @@
    Custom Aihub's data for training YOLOX.
   
 ## 1. Analyse Data Format
- For changing the aihub's data format to COCO data format, the difference between the two formats need to be know.
+ For changing the Aihub's data format to COCO data format, you need to know the difference between the two formats.
  
  Aihub's Data Format
  --
